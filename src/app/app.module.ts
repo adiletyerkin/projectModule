@@ -5,6 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { AdminModuleComponent } from './admin-module/admin-module.component';
+import {AdminModuleModule} from './admin-module/admin-module.module';
+import {UserService} from './services/user.service';
+import {GroupService} from './services/group.service';
+import {HttpClientModule} from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -13,9 +19,11 @@ import { AdminModuleComponent } from './admin-module/admin-module.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModuleModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [UserService, GroupService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,13 +7,13 @@ import {Group} from './group';
 @Injectable()
 export class GroupService{
 
-  api = 'http://localhost:3000/group';
+  api = 'http://localhost:3000';
 
   constructor(private httpClient: HttpClient) {
   }
 
   getGroupById(request: string): Observable<Group[]>{
-    return this.httpClient.get<Group[]>(this.api + '/' + request)
+    return this.httpClient.get<Group[]>(this.api + '/group?' + request)
 
   }
 

@@ -6,13 +6,13 @@ import {User} from './user';
 @Injectable()
 export class UserService{
 
-  api = 'http://localhost:3000/user';
+  api = 'http://localhost:3000';
 
   constructor(private httpClient: HttpClient) {
   }
 
   getUserById(request: string): Observable<User[]>{
-    return this.httpClient.get<User[]>(this.api + '/' + request)
+    return this.httpClient.get<User[]>(this.api + '/user?' + request)
 
   }
 

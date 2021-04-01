@@ -6,12 +6,14 @@ import { UserComponent } from './user/user.component';
 import { GroupComponent } from './group/group.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-
 @NgModule({
   declarations: [UserComponent, GroupComponent, DashboardComponent],
   imports: [
     CommonModule,
     AdminModuleRoutingModule
-  ]
+  ],
+
+
+  exports:[UserComponent, GroupComponent, DashboardComponent]
 })
 export class AdminModuleModule { }

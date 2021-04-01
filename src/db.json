@@ -3,21 +3,21 @@
     {
       "id": 1,
       "name": "Adilet",
-      "work": "data scientist",
+      "work": "Data scientist",
       "age": "20",
       "email": "adilet.yerkin@gmail.com"
     },
     {
       "id": 2,
       "name": "Yerulan",
-      "work": "Javist",
-      "age": "21",
+      "work": "Software Engineer",
+      "age": "19",
       "email": "yerulan@gmail.com"
     },
     {
       "id": 3,
       "name": "Anelya",
-      "work": "designer",
+      "work": "Designer",
       "age": "18",
       "email": "anelya@gmail.com"
     }
