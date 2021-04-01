@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Adilet",
+      "work": "data scientist",
+      "age": "20",
+      "email": "adilet.yerkin@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Yerulan",
+      "work": "Javist",
+      "age": "21",
+      "email": "yerulan@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Anelya",
+      "work": "designer",
+      "age": "18",
+      "email": "anelya@gmail.com"
+    }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "name": "data science"
+    },
+    {
+      "id": 2,
+      "name": "Java"
+    },
+    {
+      "id": 3,
+      "name": "design"
+    }
+  ]
+}

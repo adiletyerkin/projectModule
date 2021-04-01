@@ -1,1 +1,12 @@
-<p>group works!</p>
+<h2>Group</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor="let group of group">
+    <td>{{group.id}}</td>
+    <td>{{group.name}}</td>
+  </tr>
+</table>
